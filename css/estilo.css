@@ -79,7 +79,7 @@ header ul li a
 {
 	text-decoration: none;
 	font-weight: 500;
-	color: #8a2435;
+	color: #FFF;
 	padding: 8px 15px;
 	border-radius: 25px;
 }
@@ -88,7 +88,7 @@ header ul li a:hover,
 header ul li a.active
 
 {
-	background: #fff;
+	background: #000;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
 
 }
@@ -110,13 +110,13 @@ header ul li a.active
 .content h2
 {
 	font-size: 3em;
-	color: #8a2435;
+	color: #FFF;
 }
 
 .content p 
 {
 	font-size: 1.2em;
-	color: #802435;
+	color: #FFF;
 }
 
 .content a 
@@ -124,7 +124,7 @@ header ul li a.active
 	display: inline-block;
 	padding: 15px 30px;
 	background: #fff;
-	color: #8a2435;
+	color: #000;
 	margin-top: 20px;
 	border-radius: 30px;
 	font-size: 1.2em;
@@ -133,10 +133,13 @@ header ul li a.active
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
 }
 
+
 .imgBX img 
 {
-	max-width: 400px;
+	max-width: 285px;
+	margin-right: 110px;
 	animation: animate 5s linear infinite;
+
 }
 
 @keyframes  animate {	
@@ -195,7 +198,7 @@ header ul li a.active
 	position: absolute;
 	bottom: 30px;
 	left: 20px;
-	color: #8a2435;
+	color: #FFF;
 }
 
 @media (max-width: 1200px)
